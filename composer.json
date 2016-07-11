@@ -1,0 +1,21 @@
+{
+    "name": "fuzzyma/contao-eloquent-example-project-bundle",
+    "description": "Bundle for the contao-eloquent-example-project which shows the eloquent features brought to you by the fuzzyma/contao-eloquent-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ulrich-Matthias Schäfer",
+            "email": "ulima.ums@googlemail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fuzzyma/contao-eloquent-bundle": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fuzzyma\\Contao\\EloquentExampleProjectBundle\\": ""
+        }
+    }
+}
