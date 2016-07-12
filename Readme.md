@@ -9,6 +9,7 @@ which shows the eloquent features brought to you by the
 **If you don't want to do this manually you can just create a project with:**
 ```bash
 composer create-project fuzzyma/contao-eloquent-example-project exampleProject
+app/console contao:setup
 ```
 
 If not:
